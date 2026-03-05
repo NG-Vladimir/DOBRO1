@@ -44,30 +44,25 @@ npx serve .
 
 Позиции в топе зависят от конкуренции, ссылок и времени; мы сделали всё необходимое со стороны сайта для удобной индексации.
 
-## Домен .by
+## Домен dobro.by
 
-Для Беларуси удобно использовать домен **.by**. Варианты:
+Сайт уже настроен на домен **dobro.by** (в репозитории есть файл `CNAME`). Чтобы сайт открывался по https://dobro.by:
 
-- **bbq-so-smogom.by** — если свободен, хорошо запоминается.
-- **myaso-s-smogom.by**, **bbq-smogom.by** и т.п. — подберите короткий и запоминающийся.
+**1. Зарегистрируйте домен dobro.by** (если ещё не куплен):
+- Реестр .by: [cctld.by](https://cctld.by/)
+- Регистраторы: [active.by](https://active.by), [hosting.by](https://hosting.by) и др.
 
-Регистрация .by:
+**2. В GitHub:** репозиторий [DOBRO1](https://github.com/NG-Vladimir/DOBRO1) → **Settings → Pages** → в поле **Custom domain** введите `dobro.by` → **Save**. При необходимости включите **Enforce HTTPS**.
 
-- Официальный реестр: [cctld.by](https://cctld.by/)
-- Регистраторы: например, [active.by](https://active.by), [hosting.by](https://hosting.by) и другие партнёры.
+**3. У регистратора домена** настройте DNS:
+- **A-записи** (для корня dobro.by) на IP GitHub:
+  - `185.199.108.153`
+  - `185.199.109.153`
+  - `185.199.110.153`
+  - `185.199.111.153`
+- Либо, если регистратор даёт возможность указать CNAME для корня (ALIAS/ANAME), укажите: `NG-Vladimir.github.io`.
 
-После покупки домена его можно привязать к GitHub Pages:
-
-1. В настройках репо: **Settings → Pages** в поле **Custom domain** укажите ваш домен (например, `bbq-so-smogom.by`).
-2. У регистратора домена добавьте A-записи на IP GitHub:
-   - `185.199.108.153`
-   - `185.199.109.153`
-   - `185.199.110.153`
-   - `185.199.111.153`
-   Или CNAME на `<ваш-логин>.github.io` (если регистратор поддерживает CNAME для корня).
-3. В репо создайте файл `CNAME` (в корне) с одной строкой: ваш домен, например `bbq-so-smogom.by`.
-
-Подробности: [GitHub Pages — Custom domain](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site).
+Через несколько минут — до 48 часов — сайт начнёт открываться по https://dobro.by. Подробнее: [GitHub Pages — Custom domain](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site).
 
 ## Фото
 
