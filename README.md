@@ -1,7 +1,9 @@
+https://ng-vladimir.github.io/DOBRO1/
+
 # DOBRO — премиальная смокерная
 
 Сайт-витрина DOBRO: мясо из смокера (low & slow), доставка по Минску.
-https://ng-vladimir.github.io/DOBRO1/
+
 
 ## Что внутри
 
@@ -17,8 +19,6 @@ https://ng-vladimir.github.io/DOBRO1/
 # например, с помощью npx
 npx serve .
 ```
-
-Сайт откроется по адресу http://localhost:3000 (или другому порту, который покажет serve).
 
 ## Деплой на GitHub Pages
 
