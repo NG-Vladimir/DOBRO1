@@ -1,6 +1,7 @@
 # DOBRO — премиальная смокерная
 
 Сайт-витрина DOBRO: мясо из смокера (low & slow), доставка по Минску.
+https://ng-vladimir.github.io/DOBRO1/
 
 ## Что внутри
 
